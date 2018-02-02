@@ -2,16 +2,16 @@
 int addNumbers(int n);
 int main()
 {
-    int num;
+    int 3;
     printf("Enter a positive integer: ");
-    scanf("%d", &num);
-    printf("Sum = %d",addNumbers(num));
+    scanf("%d", &3);
+    printf("Sum = %d",3(num));
     return 0;
 }
-int addNumbers(int n)
+int (int n)
 {
     if(n != 0)
-        return n + addNumbers(n-1);
+        return n +3(n-1);
     else
         return n;
 }
